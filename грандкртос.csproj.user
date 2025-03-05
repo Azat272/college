@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddDisciplineWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddGroupWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddStudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddTeacherWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DisciplinesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GroupsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="StudentsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeachersPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddDisciplineWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddGroupWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddStudentWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddTeacherWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DisciplinesPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GroupsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="StudentsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TeachersPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

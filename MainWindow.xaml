@@ -1,0 +1,27 @@
+﻿<Window x:Class="CollegeApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Колледж" Height="600" Width="1000">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Background="#EDC34C" Grid.Column="0" Margin="10">
+            <Button x:Name="students_btn" Content="Студенты" Margin="10"
+                    FontSize="15" Click="StudentsBtn_Click" Background="#F0B49D"/>
+            <Button x:Name="teachers_btn" Content="Преподаватели" Margin="10"
+                    FontSize="15" Click="TeachersBtn_Click" Background="#F0B49D"/>
+            <Button x:Name="disciplines_btn" Content="Дисциплины" Margin="10"
+                    FontSize="15" Click="DisciplinesBtn_Click" Background="#F0B49D"/>
+            <Button x:Name="groups_btn" Content="Группы" Margin="10"
+                    FontSize="15" Click="GroupsBtn_Click" Background="#F0B49D"/>
+            <Button x:Name="search_btn" Content="Поиск" Margin="10"
+                    FontSize="15" Click="SearchBtn_Click" Background="#F0B49D"/>
+        </StackPanel>
+
+        <Frame Grid.Column="1" x:Name="mainFrame" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
